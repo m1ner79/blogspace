@@ -1,10 +1,11 @@
 ---
 title: Day 7
 date: '2022-04-12'
-tags: ['internship']
+tags: ['internship', 'journal']
 draft: false
 summary: ''
 ---
+
 So my yesterday's planning went out through the window 🤷‍♂️. I wanted to work on Tailwind but instead, I have spent the whole day trying to share this post on many platforms. Looks like the easiest way so far was LinkedIn and Twitter. I tried Reddit and Hacker News. Reddit wasn't too bad but HN... Jesus wept as they say.
 
 Look, I understand it is personal preference and some people may feel offended by my observation but I must say HN has one of the least intuitive UI that I have encountered. Sure, there might be others and maybe the worst but for now, this is my nr 1. It is probably my fault, I am not Hacky enough 😏.

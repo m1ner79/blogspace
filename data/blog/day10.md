@@ -1,10 +1,11 @@
 ---
 title: Day 10
 date: '2022-04-19'
-tags: ['internship']
+tags: ['internship', 'journal']
 draft: false
 summary: ''
 ---
+
 Today was great. I missed working on my blog so I was quite happy to start working on it. I was in the zone. I decided to try ghostwriter, a distraction-free text editor for Markdown. I must say that I enjoyed it except for one point when my laptop froze and I had to reboot it.
 
 I didn't give it a second thought. I was expecting to pick up where I left but within a few seconds, I realised that the auto-save didn't work and I lost everything.

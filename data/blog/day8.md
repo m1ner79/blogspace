@@ -1,10 +1,11 @@
 ---
 title: Day 8
 date: '2022-04-13'
-tags: ['internship']
+tags: ['internship', 'journal']
 draft: false
 summary: ''
 ---
+
 Today there was really nothing except reading 📚 and researching 🔎 for the new post.
 
 I used that opportunity to go through all my favourites and bookmarks on my Twitter to look for some interesting articles and I found few 💎.

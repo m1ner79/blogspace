@@ -42,7 +42,7 @@ Also, you were never afraid to ask for help and I thought that if I do that then
 
 Last time I saw you it was in the pub. After the early session in the pub after the exam, I came back that night and you were there, still 😉. How did you manage to stay on your feet since midday - I will never know. I would be passed out somewhere.
 
-I remember you were you, but free. You were listening to some music on YouTube, in the middle of a smoking area, not giving a flying hoo-ha. I remember saying to you that you were away with the ferries and you just looked at me and danced to your tune. 
+I remember you were you, but free. You were listening to some music on YouTube, in the middle of a smoking area, not giving a flying hoo-ha. I remember saying to you that you were away with the ferries and you just looked at me and danced to your tune.
 The fact that later on, you managed to get yourself kicked out was so you as well.
 
 I want to apologise again mate, that I didn't check on you after that night.

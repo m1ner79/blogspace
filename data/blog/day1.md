@@ -1,7 +1,7 @@
 ---
 title: Day 1
 date: '2022-04-04'
-tags: ['internship']
+tags: ['internship', 'journal']
 draft: false
 summary: ''
 ---
