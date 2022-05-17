@@ -1,5 +1,5 @@
 ---
-title: Day 23
+title: Day 22
 date: '2022-05-17'
 tags: ['internship', 'journal']
 draft: false
