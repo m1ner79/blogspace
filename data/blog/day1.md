@@ -21,7 +21,7 @@ I concluded that I will replace the Linux partition with some fresh and modern d
 Well... That was some experience. During that day, I managed to install and get rid of a few distros like ArcoLinux, Linux Mint LMDE 5 "Elsie", and EndeavourOS.
 
 Each gave me some issues with my graphics card. All those who are familiar with Linux, know that NVidia is not good at supporting Linux. Great Linus Torvalds had something to say in that matter before 😉.
-Anyway, after further research, I installed Pop!_OS and it just works like a charm. I must say that it works even better than on Windows.
+Anyway, after further research, I installed Pop!\_OS and it just works like a charm. I must say that it works even better than on Windows.
 
 After installing all required software - Slack, Discord, favourite browsers and Visual Studio Code I finished for a day.
-BTW, if anyone of you dear readers, are fans of dark themes(I like it dark, like my soul 😈) I recommend you to check this cool website <https://draculatheme.com> which will help you to go to the dark side with all bells and whistles.
+BTW, if anyone of you dear readers, are fans of dark themes(I like it dark, like my soul 😈) I recommend you to check this cool [website](https://draculatheme.com) which will help you to go to the dark side with all bells and whistles.
