@@ -11,6 +11,12 @@ const projectsData = [
     imgSrc: '/static/images/visibility.jpg',
     href: '/blog/visibility',
   },
+  {
+    title: 'How to make your blog feature-rich with Next.js, Tailwind CSS and Vercel.',
+    description: `Here is how I created my modern, highly customizable website without much coding knowledge.`,
+    imgSrc: '/static/images/update.jpg',
+    href: '/blog/blog-update',
+  },
 ]
 
 export default projectsData
