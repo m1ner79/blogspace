@@ -1,6 +1,6 @@
 ---
 name: Michal Gornicki
-avatar: /static/images/avatar.jpg
+avatar: /static/images/avatar.png
 occupation: Open Source Developer Advocate Intern
 company: Carlow IT
 email: michal.d.gornicki@gmail.com

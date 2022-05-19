@@ -1,16 +1,17 @@
 ---
 title: How to use GitHub Pages and Markdown to host a website.
 date: '2022-04-11'
-tags: ['github','blogging','beginner','tutorial']
+tags: ['github', 'blogging', 'beginners', 'tutorial']
 draft: false
 summary: ''
 ---
+
 > _GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub,optionally runs the files through a build process, and publishes a website._
 
 ---
 
 If you are a seasoned programmer or tech guru then this post may not be for you. Although you are still welcome to read it as you may find some issues with this tutorial and I am open to corrections.
- 
+
 I will try to write it as simple (like myself) as possible so even people who are not tech-savvy will be able to follow and start blogging or just publish a website.
 
 Here is the summary of what you will find in this post:
@@ -40,10 +41,10 @@ I am assuming that you already have an account and you are logged in.
 
 ### <a name="new-repo"></a>Creating a new repository
 
-1️⃣ On the top right-hand side click on your avatar and then click _"Your repositories"_. 
+1️⃣ On the top right-hand side click on your avatar and then click _"Your repositories"_.
 
-Depending if you are just starting fresh, you may see just info that "_your profile name_ doesn’t have any public repositories yet." or the list of your existing repositories. 
-2️⃣ Most important is that you need to click on _"New"_. 
+Depending if you are just starting fresh, you may see just info that "_your profile name_ doesn’t have any public repositories yet." or the list of your existing repositories.
+2️⃣ Most important is that you need to click on _"New"_.
 
 Now you should see this 👇
 
@@ -57,7 +58,7 @@ A description is optional so you can leave it blank, also leave the selection at
 
 _"Add .gitignore"_ is not required at this stage because .gitignore creates a list of files that do not need to be tracked. This can be added at any moment and depending on how complicated your blog is, might not be necessary at all.
 
-4️⃣ Tick _"Choose a license"_ because it will help future collaborators what they can and can't do with your code. You can't go wrong with "MIT License" so select it and click _"Create repository"_ **(Before you are going to follow my advice, please have a look 👉 [here](https://dev.to/kbeirne/comment/1ngbp) where Kevin makes a valid observation)**. 
+4️⃣ Tick _"Choose a license"_ because it will help future collaborators what they can and can't do with your code. You can't go wrong with "MIT License" so select it and click _"Create repository"_ **(Before you are going to follow my advice, please have a look 👉 [here](https://dev.to/kbeirne/comment/1ngbp) where Kevin makes a valid observation)**.
 
 You should see this 👇
 
@@ -97,15 +98,15 @@ Now you should see an extra file in your repository.
 
 Yours might be different because you may selected another theme.
 
-Now starts the best part. 
+Now starts the best part.
 
 ---
 
 ### <a name="work"></a>Working on your website/blog
 
-Depending on your needs there are two ways to write your blog. 
+Depending on your needs there are two ways to write your blog.
 
-**Option one:** 
+**Option one:**
 
 1️⃣ Click on README.md file and then on the pencil, like on the highlighted picture below.
 
@@ -113,21 +114,21 @@ Depending on your needs there are two ways to write your blog.
 
 2️⃣ All you need to do now is remove everything and start writing your blog. In the end, make sure to commit your changes.That will amend your file and new content will appear on your website.
 
-Option one has also another way of editing your code ("another way" is marked with*️⃣). 
+Option one has also another way of editing your code ("another way" is marked with\*️⃣).
 
-*️⃣1️⃣ If you have your repository open and you are on your laptop /desktop(it will work with other devices too), all you need to do is just hit "."
+\*️⃣1️⃣ If you have your repository open and you are on your laptop /desktop(it will work with other devices too), all you need to do is just hit "."
 
 This will open Visual Studio Code in your browser and you can start editing right away.
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6mopon1135t300j0kx7a.png)
 
-*️⃣2️⃣ After you will make your changes, you will notice that the source control icon indicates a number of changes. Click on it and then on the top you will see a space where you will enter a message.
+\*️⃣2️⃣ After you will make your changes, you will notice that the source control icon indicates a number of changes. Click on it and then on the top you will see a space where you will enter a message.
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uplpmtof1nd1hfake29l.png)
 
-*️⃣3️⃣ This message needs to make sense. Just assume that there might be someone else reading that comment so give them a chance to understand what you did i.e. "add a folder for images" or "update xyz file".
+\*️⃣3️⃣ This message needs to make sense. Just assume that there might be someone else reading that comment so give them a chance to understand what you did i.e. "add a folder for images" or "update xyz file".
 
-*️⃣4️⃣ Now click the tick and your changes are pushed to your repository. 
+\*️⃣4️⃣ Now click the tick and your changes are pushed to your repository.
 
 Give it a few seconds and your changes should be visible when clicking on your GitHub Pages address.
 
@@ -135,19 +136,19 @@ Give it a few seconds and your changes should be visible when clicking on your G
 
 A bit more complex and I am doing that(because I like a challenge 😉).
 
-1️⃣ You need to create a folder on your local machine where you are going to keep all files required for your blog. Open a terminal. 
+1️⃣ You need to create a folder on your local machine where you are going to keep all files required for your blog. Open a terminal.
 
 2️⃣ Now, in your repository, click _"Code"_ and copy that highlighted link.
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lhz8ujbwqs7wbofc2vxc.png)
-  
+
 3️⃣ Go back to your terminal and type in "git clone _your link goes here_"
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3xn60g47u5oc9i1bwn0y.png)
 
 This will download all files into your folder. You can now use your favourite editor to work on your blog.
 
-4️⃣ After you have done all changes you need to push these to your repository. 
+4️⃣ After you have done all changes you need to push these to your repository.
 
 I will not cover how to do it here, instead, I will share some links to the tutorials I have used myself to get better with Git and GitHub.
 
@@ -160,7 +161,7 @@ This is a very good tutorial from well known freecodecamp.com 👉 [How to Start
 If you prefer YouTube then try this one 👉 [Git and GitHub explained for beginners](https://youtu.be/8Dd7KRpKeaE).
 
 Also, I know that I said it is easy to start writing your blog but you need to get some of the basics for the markdown language so your website will render the way you wanted.
- 
+
 Here is a great source 👉 [Markdown Guide](https://www.markdownguide.org/basic-syntax/) and if you like emojis then this is a must 👉 [Emojipedia](https://emojipedia.org).
 
 That would be all. Please let me know what you think about this post.
