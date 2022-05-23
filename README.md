@@ -1,4 +1,4 @@
-![banner](/public/static/images/banner.png)
+![banner](/public/static/images/twitter-card.png)
 
 # Starter Blog
 
