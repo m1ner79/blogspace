@@ -2,7 +2,7 @@
 
 # Starter Blog
 
-This was created thanks to [Timothy Lin](https://www.timrlx.com) who did an amazing job 👏 when he created this starter blog.
+This was created thanks to [Timothy Lin](https://www.timlrx.com) who did an amazing job 👏 when he created this starter blog.
 
 This great blogging template is based on [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/). It has plenty of features, it is preconfigured and provides the latest technologies which should make blogging an absolute pleasure. It is highly customizable and relatively easy to tweak (if I can do it, so can you😁), therefore I can modify it according to my specifications.
 
