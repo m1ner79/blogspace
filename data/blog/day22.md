@@ -6,7 +6,7 @@ draft: false
 summary: ''
 ---
 
-First of all, I am well aware that this is not day 23. "What about last Friday and this Monday mate!?"🤔
+First of all, I am well aware that this is not day 22. "What about last Friday and this Monday mate!?"🤔
 
 These two days were not that interesting. I was transferring bits from the original blog onto the new one. Fixing errors and broken links, etc.
 
