@@ -14,12 +14,13 @@ In this article, I will explain the changes which I made when I created my new w
 
 This is what I changed so far:
 
-- [<a name="site"></a>data/siteMetadata.js](#datasitemetadatajs)
-- [<a name="author"></a>data/authors/default.md](#dataauthorsdefaultmd)
-- [<a name="projects"></a>data/projectsData.js](#dataprojectsdatajs)
-- [<a name="giscus"></a>components/comments/Giscus.js](#componentscommentsgiscusjs)
-- [<a name="blog"></a>data/blog](#datablog)
-- [<a name="images"></a>public/static](#publicstatic)
+- [data/siteMetadata.js](#site)
+- [data/authors/default.md](#author)
+
+- [data/projectsData.js](#project)
+- [components/comments/Giscus.js](#giscus)
+- [data/blog](#blog)
+- [public/static](#images)
 
 ---
 
