@@ -17,6 +17,12 @@ const projectsData = [
     imgSrc: '/static/images/update.jpg',
     href: '/blog/blog-update',
   },
+  {
+    title: 'How to configure Next.js, Tailwind CSS starter blog.',
+    description: `This is a follow-up article to help people with the basic configuration of their blog.`,
+    imgSrc: '/static/images/config.png',
+    href: '/blog/blog-update-followup',
+  },
 ]
 
 export default projectsData
