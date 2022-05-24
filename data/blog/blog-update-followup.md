@@ -72,7 +72,7 @@ Styled cards are generated using data from the projectsData file.
 
 Before you can activate the comments system on your website, you need to generate a script with your specific information.
 
-1️⃣ Go to the giscus [website](https://giscus.app/) then click on **giscus app**
+1️⃣ Go to the giscus [website](https://giscus.app/) then click on **giscus app**.
 
 ![website](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3wt2x1j3m29kxbiq73g6.png)
 
@@ -88,11 +88,11 @@ You should see this 👇
 
 ![giscus installed](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lpw98mfqlegysl86kf7e.png)
 
-4️⃣ Now you need to activate discussions. Go to _Settings_ in your repository
+4️⃣ Now you need to activate discussions. Go to _Settings_ in your repository.
 
 ![settings](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rokt3xcht3dpu8ekcgf5.png)
 
-Scroll to _Features_ and tick the box for **Discussions**
+Scroll to _Features_ and tick the box for **Discussions**.
 
 ![discussions](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yxxpzzr2rka45ndl7n7s.png)
 
