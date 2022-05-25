@@ -12,7 +12,7 @@ For most of the day, I stared senselessly at my computer screen. I am not sure w
 
 I don't like when this happens.
 
-Please let me know if this has ever happened to you and if you found a solution in the comments below 👇.
+Please let me know in the comments below 👇 if this has ever happened to you and if you found a solution. The more life hacks I learn, the better.
 
 I had great last few days so for some balance I am probably due a 💩💩 day I guess🤷‍♂️.
 
