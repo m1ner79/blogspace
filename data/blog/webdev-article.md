@@ -39,11 +39,9 @@ Website rendering affects how a page is indexed, which impacts Search Engine Opt
 
 I will not cover indexing or SEO in great detail here. It might be an idea for another article 🤔.
 
-### Build Level Rendering ??
-
 ### Server-side Rendering (SSR)
 
-Server-side rendering indicates that when you are visiting a website all the website content is processed and rendered on the server.
+Server-side rendering (sometimes refereed to as Static SSR) means that when you are visiting a website all the website's content is processed and rendered on the server.
 
 1️⃣ First, through your browser, you are sending a request to access a website.
 
@@ -100,8 +98,50 @@ If SEO is not a priority, your website has a large number of visitors, depends o
 
 **CSR cons:**
 
-- as mentioned above, it can be slow when loading for the first time. It depends on many variables like a visitor's internet connection speed or is the device used to access that website an old computer or tablet.
+- as mentioned above, it can be slow when loading for the first time. It depends on many variables like a visitor's internet connection speed or is the device used to access that website an old computer or tablet(old machines might not be powerful enough to handle it).
 
 - if Search Engine Optimization is important for you then you probably need to stay away. SEO for the website will be negatively affected because the content is not rendered until the browser is loaded. I know that they are ways around but apparently these are complicated.
 
-### Pre-Rendering
+### Build-level Rendering(BLR)
+
+Before I can explain how Build-level Rendering works, I need to address what is CI/CD.
+
+CI/CD stands for Continuous Integration, Continuous Delivery and Continuous Deployment, it is often referred to as a "CI/CD pipeline".
+
+"How it works?" - you may ask. In the most simple way, this is a modern approach towards product development. It is a continuous automation of integration, testing, delivery and deployment phases in the life cycle of a website/application.
+
+1️⃣ A developer works on his local environment. Codes changes to a website, runs some test(`npm run dev`). Once everything went ok the code is pushed onto a shared branch.
+
+2️⃣ At the Continuous Integration stage, a code is validated by automatically **building** an application and running different automated **tests**. If these changes break the app, then CI makes it easier to locate and fix these bugs.
+If all unit and integration tests were successful then the code is merged into the release branch.
+
+3️⃣ The Continuous Delivery is the part that interest us from the perspective of the Build-level Rendering. In the cloned production environment(environment imitating your end product) all components are automatically tested and once everything is good the code changes are deployed to production. The release branch can be deleted once it merges with the production.
+
+4️⃣ Here is the last stage of CI/CD pipeline. During the Continuous Deployment stage if all automated test are completed then all changes are applied to a website/application.
+Some would say that Build-level Rendering takes place now but I think that whole "hard work" is done at previous step. If any tests would fail now that would be more likely down to development environment not set up correctly(if you think of other reasons, please let me know in the comments below 👇).
+
+In short, the CI/CD pipeline(step 2-4) is very good and necessary because allows you as a developer to get a continuous feedback across all stages. This is an agile way of developing an application(Chris,my agile lecturer, would be very proud 😉).
+
+5️⃣ Unlike in SSR where everything is compiled on the severer(once a user requests a website), BLR delivers a ready product to a server where it waits for a user to request it.
+
+It looks like that 👇
+![Build-level Rendering](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3y8mfak7xwtzfgg7tokx.png)
+
+**When would you use BLR?**
+It would have this same application like Server-side Rendering.
+
+Pros and Cons would be as well similar to SSR. I would add an additional con that if you decide to go with this way of building an application just make sure that your CI/CD pipeline is set up correctly. It requires to create a high level of automation and continuous monitoring which can be costly at the beginning but once it is set up correctly then it should work like a charm.
+
+### Dynamic SSR (Pre-Rendering)
+
+Pre-Rendering is trying to combine SSR and CSR together.The goal is to provide solutions which would allow to create SEO friendly, fast loading, dynamic websites with loads of visitors with minimal performance impact.
+
+> _In a nutshell, dynamic rendering is the principle of sending normal, Client-side Rendered content to users, and sending fully Server-side Rendered content to search engines and to other crawlers that need it._
+> (John Mueller at Google I/O 2018 event)
+
+1️⃣ Just like on other occasions, through your browser, you are sending a request to access a website.
+
+2️⃣ Next, all necessary files (HTML,CSS,JavaScript) are prepared and compiled.After that, browser will download all static content required by HTML file and JavaScript.
+2️⃣
+3️⃣
+4️⃣
