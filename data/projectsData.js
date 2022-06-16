@@ -23,6 +23,12 @@ const projectsData = [
     imgSrc: '/static/images/config.png',
     href: '/blog/blog-update-followup',
   },
+  {
+    title: 'Website rendering for beginners. ',
+    description: `A beginner-friendly guide about website rendering.`,
+    imgSrc: '/static/images/digitization.jpg',
+    href: '/blog/website-rendering-for-beginners',
+  },
 ]
 
 export default projectsData
