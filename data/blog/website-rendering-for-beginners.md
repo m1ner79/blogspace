@@ -1,5 +1,5 @@
 ---
-title: Website rendering explained.
+title: Website rendering for beginners.
 date: '2022-06-16'
 tags: ['beginners', 'tutorial', 'webdev', 'blog']
 draft: false
