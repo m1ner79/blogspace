@@ -10,9 +10,9 @@ Yeah, I know. Another blank entry, but I was off yesterday, so I am covered 😏
 
 Today, after reading a bit of documentation, I decided to understand React.
 
-I had never worked with that technology before, so I installed it on my laptop.
+I had never worked with that technology.
 
-Because I had Node.js installed before for my other projects, so the whole set up went nicely.
+I installed it on my laptop and because I had Node.js installed before for my other projects, so the whole set up went nicely.
 
 After everything was set up, I followed the tic-tac-toe tutorial to get some understanding.
 
