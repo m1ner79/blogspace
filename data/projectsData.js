@@ -29,12 +29,12 @@ const projectsData = [
     imgSrc: '/static/images/digitization.jpg',
     href: '/blog/website-rendering-for-beginners',
   },
-  {
-    title: 'Event driven API documentation made simple (Client-Side Rendering).',
-    description: `This is a guide about AsyncAPI document generation.`,
-    imgSrc: '/static/images/documentation.png',
-    href: '/blog/event-driven-documentation',
-  },
+  // {
+  //   title: 'Event driven API documentation made simple (Client-Side Rendering).',
+  //   description: `This is a guide about AsyncAPI document generation.`,
+  //   imgSrc: '/static/images/documentation.png',
+  //   href: '/blog/event-driven-documentation',
+  // },
 ]
 
 export default projectsData
