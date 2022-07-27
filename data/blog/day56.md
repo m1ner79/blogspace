@@ -1,5 +1,5 @@
 ---
-title: Day 55
+title: Day 56
 date: '2022-07-05'
 tags: ['internship', 'journal']
 draft: false
