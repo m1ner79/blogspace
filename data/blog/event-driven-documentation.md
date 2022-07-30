@@ -2,7 +2,7 @@
 title: Event driven API documentation made simple (Client-Side Rendering).
 date: '2022-07-27'
 tags: ['eventdriven', 'asyncapi', 'documentation', 'guide']
-draft: true
+draft: false
 summary: ''
 ---
 
@@ -75,9 +75,9 @@ All usage examples from this article are available to check on [asyncapi-docs-re
 
 If you wish to render documentation from your AsyncAPI file in React application, then you need to use [AsyncAPI React component](https://github.com/asyncapi/asyncapi-react).
 
-1️⃣ To install the React AsyncAPI component run the command `npm install --save @asyncapi/react-component@next`.
+1️⃣ To install the **React AsyncAPI component** run the command `npm install --save @asyncapi/react-component@next`.
 
-2️⃣ In your _**src**_ folder create **index.js** file and type in:
+2️⃣ Now, create **index.js** file and type in:
 
 ```
 import React from "react";
@@ -92,7 +92,11 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<AsyncApiComponent schema={specMock} />, rootElement);
 ```
 
+**React AsyncAPI component** is imported on the **line 4**.
+
 If you are happy with AsyncAPI styling then you need to import their CSS pattern with `import "@asyncapi/react-component/styles/default.min.css";`
+
+On the **line 7** is where AsyncAPI sample file is imported.
 
 ---
 
@@ -133,7 +137,7 @@ export default {
 <style scope src="@/assets/asyncapi.min.css"></style>
 ```
 
-As you can see on **line 6**, you need to import AsyncApiStandalone bundle with `import AsyncApiStandalone from '@asyncapi/react-component/browser/standalone';` command.
+As you can see on **line 6**, you need to import **AsyncApiStandalone** bundle with `import AsyncApiStandalone from '@asyncapi/react-component/browser/standalone';` command.
 
 3️⃣ There is one more thing to do. If you like AsyncAPI styling then you need to go to 👉 `node_modules/@asyncapi/react-component/style/default.min.css`.
 
@@ -165,6 +169,9 @@ To generate documentation from your AsyncAPI file, you can use it as an element 
 2️⃣ If you need support for old browsers then you need to add this script as well `<script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.5.0/webcomponents-bundle.js"></script>`.
 
 That is it! 🤯 Just awesome!
+
+I almost forgot. There is one more way to configure the AsyncAPI sample.
+You can do it through **config** props. My example `config='{"show": {"sidebar": false}}` has a sidebar off, but if you change it to _**true**_ then your document will have a sidebar.
 
 ---
 
