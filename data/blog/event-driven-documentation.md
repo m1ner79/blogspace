@@ -170,9 +170,6 @@ To generate documentation from your AsyncAPI file, you can use it as an element 
 
 That is it! 🤯 Just awesome!
 
-I almost forgot. There is one more way to configure the AsyncAPI sample.
-You can do it through **config** props. My example `config='{"show": {"sidebar": false}}` has a sidebar off, but if you change it to _**true**_ then your document will have a sidebar.
-
 ---
 
 ### <a name="sb"></a>Standalone Bundle
@@ -203,6 +200,13 @@ If you want to render documentation from your AsyncAPI file without the use of a
 ```
 
 `<script src="https://unpkg.com/@asyncapi/react-component@1.0.0-next.39/browser/standalone/index.js"></script>` fetches everything required from the bundle.
+
+I almost forgot.
+
+There is one more way to configure the AsyncAPI component.
+You can do it through **config** props, this same as for normal React component.
+
+My **Web Component** and **Standalone Bundle** usage examples have `config='{"show": {"sidebar": false}}` which turns a sidebar off, but if you change it to _**true**_ then your rendered document will have a sidebar.
 
 This was only a sample of what could be done. AsyncAPI can do a lot more. Check [AsyncAPI documentation](https://www.asyncapi.com/docs/tutorials/getting-started/asyncapi-documents) for more information on how to generate docs.
 
