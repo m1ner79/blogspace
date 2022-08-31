@@ -1,6 +1,6 @@
 ---
 title: Day 75
-date: '2022-07-15'
+date: '2022-08-15'
 tags: ['internship', 'journal']
 draft: false
 summary: ''

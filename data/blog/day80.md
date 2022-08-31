@@ -1,6 +1,6 @@
 ---
 title: Day 80
-date: '2022-07-19'
+date: '2022-08-19'
 tags: ['internship', 'journal']
 draft: false
 summary: ''
